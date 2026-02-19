@@ -1,0 +1,8 @@
+The quick brown fox jumps over 13 lazy dogs.
+Level and madam are palindromes, but apple is not.
+Numbers like 12345 and 98765 are hidden here.
+Did you see a racecar at noon? 
+Java streams are powerful!
+100 days of code is better than 0 days.
+A man a plan a canal Panama.
+The sequence is 0, 1, 1, 2, 3, 5, 8, 13, 21, 34.
