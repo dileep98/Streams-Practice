@@ -8,9 +8,9 @@ import java.util.List;
 import java.util.Objects;
 import java.util.concurrent.CompletableFuture;
 
-public class StreamsPracticeAdvanced {
+public class StreamsPracticeAdvanced implements StreamsPractice {
 
-    public static void main(String[] args) throws URISyntaxException, IOException {
+    public void runMethods() throws URISyntaxException, IOException {
         List<String> words = List.of("apple", "banana", "kiwi", "apple", "banana", "");
         StreamFunctionsAdvanced.mostFrequentElementInList(words);
         StreamFunctionsAdvanced.leastFrequentInList(words);

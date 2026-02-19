@@ -2,9 +2,9 @@ package org.dk.streams;
 
 import java.util.List;
 
-public class StreamsPracticeIntermediate {
+public class StreamsPracticeIntermediate implements StreamsPractice {
 
-    public static void main(String[] args) {
+    public void runMethods() {
         StreamFunctionsIntermediate.sumOfDigits(12345);
         StreamFunctionsIntermediate.factorial(4);
         List<Integer> numbersList = List.of(5,8,1,2,4,6,7,9);

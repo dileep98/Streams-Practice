@@ -4,8 +4,8 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.function.Predicate;
 
-public class StreamsPracticeBeginner {
-    public static void main(String[] args){
+public class StreamsPracticeBeginner implements StreamsPractice {
+    public void runMethods(){
         List<Integer> list = List.of(1,2,3,4,5);
         List<Integer> duplicateIntList = List.of(1,1,2,3,3,4,5);
         StreamFunctions.sumOfAllIntegers(list);
