@@ -21,4 +21,4 @@ A comprehensive collection of Java Stream API examples ranging from beginner to 
 ## 🚀 How to Run
 1. Clone the repo:
    ```bash
-   git clone [https://github.com](https://github.com/dileep98/Streams-Practice.git)
+   git clone https://github.com/dileep98/Streams-Practice.git
