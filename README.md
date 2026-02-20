@@ -22,3 +22,8 @@ A comprehensive collection of Java Stream API examples ranging from beginner to 
 1. Clone the repo:
    ```bash
    git clone https://github.com/dileep98/Streams-Practice.git
+   
+2. This project is configured with the `exec-maven-plugin`. You can run the `Main` class directly from the terminal:
+
+   ```bash
+   mvn exec:java

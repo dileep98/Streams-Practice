@@ -1,7 +1,10 @@
 package org.dk.streams;
 
+import org.dk.Main;
+
 import java.io.IOException;
 import java.net.URISyntaxException;
+import java.net.URL;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
@@ -53,11 +56,18 @@ public class StreamsPracticeAdvanced implements StreamsPractice {
         StreamFunctionsAdvanced.extractDigitsSum(textWithNumbers);
         List<Integer> numbers = List.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
         StreamFunctionsAdvanced.sumOfAllFibonacci(numbers);
-        Path sampleTxtPath = Paths.get(ClassLoader.getSystemResource("sample.txt").toURI());
+//        Path sampleTxtPath = Paths.get(ClassLoader.getSystemResource("sample.txt").toURI());
+        URL sampleTxtResource = Main.class.getResource("/sample.txt");
+        if (sampleTxtResource == null) {
+            throw new IllegalArgumentException("File not found in resources!");
+        }
+        Path sampleTxtPath = Paths.get(sampleTxtResource.toURI());
         StreamFunctionsAdvanced.noOfLinesInAFile(sampleTxtPath);
         StreamFunctionsAdvanced.noOfCharsInFile(sampleTxtPath);
         StreamFunctionsAdvanced.noOfWordsInFile(sampleTxtPath);
-        Path sampleCsvPath = Paths.get(ClassLoader.getSystemResource("data.csv").toURI());
+        URL sampleCsvResource = Main.class.getResource("/data.csv");
+        if(sampleCsvResource == null) throw new IllegalArgumentException("File not found in resources!");
+        Path sampleCsvPath = Paths.get(sampleCsvResource.toURI());
         StreamFunctionsAdvanced.csvSalaryAggregate(sampleCsvPath);
 
         // In main method, update Employee instantiation
