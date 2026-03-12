@@ -1,4 +1,4 @@
-package org.dk.parallelStreams;
+package org.dk.streams.parallelStreams;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -46,14 +46,22 @@ public class WhenToUse {
 //        ArrayList<Integer> list = Stream.iterate(0, n -> n + 1)
 //                .parallel()
 //                .limit(20)
-//                .collect(Collectors.toCollection(() -> new ArrayList<Integer>())); // another way of writing Collect(Collectors.toList)
+//                .collect(Collectors.toCollection(() -> new ArrayList<Integer>())); // another way of writing Collect(Collectors.toList))
 
-//        ArrayList<Integer> list = Stream.iterate(0, n -> n + 1)
-//                .parallel()
-//                .limit(20)
-//                .collect(Collectors.toCollection(); // Ignore this, I will implement internal working of Collectors.toList() in the future
-//        System.out.println(list);
-//        System.out.println(list.size());
+        ArrayList<Integer> list = Stream.iterate(0, n -> n + 1)
+                .parallel()
+                .limit(20)
+                .collect(
+                        // 1. Supplier: How to create a new container
+                        () -> new ArrayList<Integer>(), // can be written as ArrayList::new
+                        // 2. Accumulator(BiConsumer): How to add a single element to a container
+                        (leftList, element) -> leftList.add(element), // can be written as ArrayList::add
+                        // 3. Combiner(BiConsumer): How to merge two containers (Crucial for .parallel())
+                        (list1, list2) -> { // can be written as ArrayList::addAll
+                            list1.addAll(list2);
+                        });
+        System.out.println(list);
+        System.out.println(list.size());
 
 
     }

@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4371d0e3-9919-4833-b2b9-1ad6174a3627" name="Changes" comment="added a few basic examples to understand streams">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dk/parallelStreams/Exercise1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dk/parallelStreams/Exercise2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dk/parallelStreams/WhenToUse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dk/streams/boxing/Autoboxing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dk/streams/boxing/Boxing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dk/streams/methodReference/IUpperCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dk/streams/methodReference/UpperCaseTest.java" afterDir="false" />
+    <list default="true" id="4371d0e3-9919-4833-b2b9-1ad6174a3627" name="Changes" comment="Method reference, Boxing, Unboxing, Auto Boxing, Auto Unboxing, Parallel Streams">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dk/streams/flatMap/FlatMapExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dk/streams/methodReference/IAddition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dk/streams/methodReference/IAddition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dk/streams/methodReference/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dk/streams/methodReference/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dk/parallelStreams/Exercise1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dk/streams/parallelStreams/Exercise1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dk/parallelStreams/Exercise2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dk/streams/parallelStreams/Exercise2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dk/parallelStreams/WhenToUse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dk/streams/parallelStreams/WhenToUse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +60,7 @@
     "Application.Basic2.executor": "Run",
     "Application.Exercise1.executor": "Run",
     "Application.Exercise2.executor": "Run",
+    "Application.FlatMapExample.executor": "Run",
     "Application.UpperCaseTest.executor": "Run",
     "Application.WhenToUse.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
@@ -88,20 +84,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.WhenToUse">
-    <configuration name="Basic2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.dk.streams.basics.Basic2" />
-      <module name="Streams_Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.dk.streams.basics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.FlatMapExample">
     <configuration name="Exercise1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.dk.parallelStreams.Exercise1" />
       <module name="Streams_Practice" />
@@ -121,6 +104,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.dk.parallelStreams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlatMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dk.streams.flatMap.FlatMapExample" />
+      <module name="Streams_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dk.streams.flatMap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FlatMapExample" />
         <item itemvalue="Application.WhenToUse" />
         <item itemvalue="Application.Exercise2" />
         <item itemvalue="Application.Exercise1" />
         <item itemvalue="Application.UpperCaseTest" />
-        <item itemvalue="Application.Basic2" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +180,7 @@
       <workItem from="1771467312446" duration="13305000" />
       <workItem from="1771481828563" duration="6377000" />
       <workItem from="1771564137009" duration="4606000" />
-      <workItem from="1772578446201" duration="35733000" />
+      <workItem from="1772578446201" duration="41007000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore update">
       <created>1771520179029</created>
@@ -215,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772941590532</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Method reference, Boxing, Unboxing, Auto Boxing, Auto Unboxing, Parallel Streams">
+      <option name="closed" value="true" />
+      <created>1773289744794</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1773289744794</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,7 +241,8 @@
     <MESSAGE value="Added StreamsPractice Interface" />
     <MESSAGE value="run fix" />
     <MESSAGE value="added a few basic examples to understand streams" />
-    <option name="LAST_COMMIT_MESSAGE" value="added a few basic examples to understand streams" />
+    <MESSAGE value="Method reference, Boxing, Unboxing, Auto Boxing, Auto Unboxing, Parallel Streams" />
+    <option name="LAST_COMMIT_MESSAGE" value="Method reference, Boxing, Unboxing, Auto Boxing, Auto Unboxing, Parallel Streams" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

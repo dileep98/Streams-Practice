@@ -1,4 +1,4 @@
-package org.dk.parallelStreams;
+package org.dk.streams.parallelStreams;
 
 import java.util.stream.Stream;
 
