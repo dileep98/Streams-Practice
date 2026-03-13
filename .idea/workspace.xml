@@ -4,17 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4371d0e3-9919-4833-b2b9-1ad6174a3627" name="Changes" comment="Method reference, Boxing, Unboxing, Auto Boxing, Auto Unboxing, Parallel Streams">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dk/streams/flatMap/FlatMapExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dk/parallelStreams/Exercise1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dk/streams/parallelStreams/Exercise1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dk/parallelStreams/Exercise2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dk/streams/parallelStreams/Exercise2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dk/parallelStreams/WhenToUse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dk/streams/parallelStreams/WhenToUse.java" afterDir="false" />
+    <list default="true" id="4371d0e3-9919-4833-b2b9-1ad6174a3627" name="Changes" comment="map and flatmap example">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_C:/Mine/Projects/Streams_Practice" value="39YMGpHVZOIBVi2IILaj4KMza8i" />
+    </persistenceIdMap>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -180,7 +181,7 @@
       <workItem from="1771467312446" duration="13305000" />
       <workItem from="1771481828563" duration="6377000" />
       <workItem from="1771564137009" duration="4606000" />
-      <workItem from="1772578446201" duration="41007000" />
+      <workItem from="1772578446201" duration="42229000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore update">
       <created>1771520179029</created>
@@ -219,7 +220,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773289744794</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="map and flatmap example">
+      <option name="closed" value="true" />
+      <created>1773358873294</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1773358873294</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,7 +251,8 @@
     <MESSAGE value="run fix" />
     <MESSAGE value="added a few basic examples to understand streams" />
     <MESSAGE value="Method reference, Boxing, Unboxing, Auto Boxing, Auto Unboxing, Parallel Streams" />
-    <option name="LAST_COMMIT_MESSAGE" value="Method reference, Boxing, Unboxing, Auto Boxing, Auto Unboxing, Parallel Streams" />
+    <MESSAGE value="map and flatmap example" />
+    <option name="LAST_COMMIT_MESSAGE" value="map and flatmap example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
