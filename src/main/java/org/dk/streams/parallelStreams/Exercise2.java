@@ -25,7 +25,7 @@ public class Exercise2 {
         for(int i = 1; i<=100; i++){
             integerList.clear();
             Stream.iterate(1, no->no<=100, no->no+1)
-                    .parallel()
+                    .parallel ()
                     .forEach(no -> integerList.add(no));
             System.out.println(integerList);
             System.out.println(integerList.size());

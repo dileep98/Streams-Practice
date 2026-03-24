@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4371d0e3-9919-4833-b2b9-1ad6174a3627" name="Changes" comment="map and flatmap example">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="4371d0e3-9919-4833-b2b9-1ad6174a3627" name="Changes" comment="README.md changes">
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dk/streams/flatMap/FlatMapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dk/streams/flatMap/FlatMapExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dk/streams/parallelStreams/Exercise2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dk/streams/parallelStreams/Exercise2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,18 +31,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "dileep98"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;dileep98&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/dileep98/Streams-Practice",
-    "accountId": "22cf071f-fed6-4181-bf53-b6bfe198f02c"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/dileep98/Streams-Practice&quot;,
+    &quot;accountId&quot;: &quot;22cf071f-fed6-4181-bf53-b6bfe198f02c&quot;
   }
-}]]></component>
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -47,9 +50,9 @@
     <commands />
     <urls />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="39YMGpHVZOIBVi2IILaj4KMza8i" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -64,6 +67,8 @@
     "Application.FlatMapExample.executor": "Run",
     "Application.UpperCaseTest.executor": "Run",
     "Application.WhenToUse.executor": "Run",
+    "Application.org.dk.streams.parallelStreams.Exercise1.executor": "Run",
+    "Application.org.dk.streams.parallelStreams.Exercise2.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -85,20 +90,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FlatMapExample">
-    <configuration name="Exercise1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.dk.parallelStreams.Exercise1" />
-      <module name="Streams_Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.dk.parallelStreams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.org.dk.streams.parallelStreams.Exercise2">
     <configuration name="Exercise2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.dk.parallelStreams.Exercise2" />
       <module name="Streams_Practice" />
@@ -125,19 +117,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UpperCaseTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.dk.streams.methodReference.UpperCaseTest" />
-      <module name="Streams_Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.dk.streams.methodReference.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WhenToUse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.dk.parallelStreams.WhenToUse" />
       <module name="Streams_Practice" />
@@ -151,13 +130,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.dk.streams.parallelStreams.Exercise1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dk.streams.parallelStreams.Exercise1" />
+      <module name="Streams_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dk.streams.parallelStreams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.dk.streams.parallelStreams.Exercise2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dk.streams.parallelStreams.Exercise2" />
+      <module name="Streams_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dk.streams.parallelStreams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.dk.streams.parallelStreams.Exercise2" />
+        <item itemvalue="Application.org.dk.streams.parallelStreams.Exercise1" />
         <item itemvalue="Application.FlatMapExample" />
         <item itemvalue="Application.WhenToUse" />
         <item itemvalue="Application.Exercise2" />
-        <item itemvalue="Application.Exercise1" />
-        <item itemvalue="Application.UpperCaseTest" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +186,8 @@
       <workItem from="1771467312446" duration="13305000" />
       <workItem from="1771481828563" duration="6377000" />
       <workItem from="1771564137009" duration="4606000" />
-      <workItem from="1772578446201" duration="42229000" />
+      <workItem from="1772578446201" duration="43446000" />
+      <workItem from="1774145777392" duration="6640000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore update">
       <created>1771520179029</created>
@@ -228,7 +234,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773358873294</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="README.md changes">
+      <option name="closed" value="true" />
+      <created>1773360091963</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1773360091963</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,7 +266,8 @@
     <MESSAGE value="added a few basic examples to understand streams" />
     <MESSAGE value="Method reference, Boxing, Unboxing, Auto Boxing, Auto Unboxing, Parallel Streams" />
     <MESSAGE value="map and flatmap example" />
-    <option name="LAST_COMMIT_MESSAGE" value="map and flatmap example" />
+    <MESSAGE value="README.md changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="README.md changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

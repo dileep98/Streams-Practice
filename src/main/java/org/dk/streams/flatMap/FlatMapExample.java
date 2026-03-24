@@ -38,7 +38,7 @@ public class FlatMapExample {
 
         // Exercise:
         // input: ["hello world", "Dileep Kumar", "Java Programming"]
-        // input: ["hello", "world", "Dileep", "Kumar", "Java", "Programming"]
+        // output: ["hello", "world", "Dileep", "Kumar", "Java", "Programming"]
 
         List<String> listOfString = List.of("Hello World", "Dileep Kumar", "Java Programming");
         List<String> listOfWords = listOfString.stream()
